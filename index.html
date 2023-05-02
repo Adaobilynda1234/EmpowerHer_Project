@@ -8,19 +8,32 @@
     <!----link to css-->
     <link rel="stylesheet" href="src/style.css" />
     <!----box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!----Navbar-->
     <header>
       <a href="#" class="logo"><img src="" alt="" /></a>
-      <div class="nav-menu" id="menu-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
       <ul class="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">contact</a></li>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">privacy policy</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#privacy">privacy policy</a></li>
       </ul>
     </header>
+    <section class="home id=home">
+      <div class="homePage">
+        <span>Welcome To</span>
+        <h1>Stadium drink</h1>
+        <h2>Stadium is a home of refreshment</h2>
+        <a href="#" class="btn">join now</a>
+      </div>
+      <div class="home-img"></div>
+    </section>
     <!----link to js-->
     <script src="src/app.js"></script>
   </body>
